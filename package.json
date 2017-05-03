@@ -1,0 +1,32 @@
+{
+  "name": "alexa_hello_world",
+  "version": "0.0.0",
+  "description": "Alexa Hello World",
+  "main": "Majic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnchongWang/HelloWorld.git"
+  },
+  "author": "EnchongWang Wang",
+  "license": "ISC",
+  "dependencies": {
+    "alexa": "0.0.1-e",
+    "alexa-sdk": "^1.0.9",
+    "csv-parse": "^1.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "yargs": "^7.1.0",
+    "run-sequence": "^1.2.2",
+    "gulp-git": "^2.1.0"
+  }
+}
